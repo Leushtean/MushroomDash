@@ -1,0 +1,35 @@
+<div class="game">
+  <h1>🍄 Mushroom Dash</h1>
+
+  <div class="hud">
+    <span>⭐ Score: <b id="score">0</b></span>
+    <span>🪙 Coins: <b id="coins">0</b></span>
+    <span>⏱️ Time: <b id="timer">30</b></span>
+  </div>
+
+  <div class="game-frame">
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="startScreen" class="screen">
+      <h2>Mushroom Dash!</h2>
+      <p>Jump, dodge and collect treasures!</p>
+      <button id="startBtn">PLAY</button>
+    </div>
+
+    <div id="endScreen" class="screen hidden">
+      <h2 id="endTitle">Game Over!</h2>
+      <p id="endResult"></p>
+      <button id="restartBtn">PLAY AGAIN</button>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="leftBtn">◀</button>
+    <button id="jumpBtn">JUMP ⬆</button>
+    <button id="rightBtn">▶</button>
+  </div>
+
+  <p class="help">
+    Move: A / D or arrow keys · Jump: Space / W / ↑
+  </p>
+</div>
